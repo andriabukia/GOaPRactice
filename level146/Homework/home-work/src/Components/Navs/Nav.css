@@ -1,0 +1,14 @@
+.parent{
+    color: aliceblue;
+    background-color: rgb(20, 20, 58);
+    border: 2px solid aliceblue;
+}
+.parent >li{
+    font-size: 20px;
+    text-decoration: line-through;
+    transition: all 0.3s ease;
+}
+.parent>li:hover{
+    text-decoration: none;
+    color: aquamarine;
+}

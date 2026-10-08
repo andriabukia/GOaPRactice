@@ -1,0 +1,36 @@
+.productCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border: 2px solid rgb(39, 32, 71);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    gap: 10px;
+    padding: 20px;
+    flex-direction: column;
+    min-width: 200px;
+}
+.productCard:hover{
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes pop{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 0;
+    }
+    100%{
+        scale: 1;
+    }
+}
+button:active{
+    background-color: rgb(22, 190, 45);
+    animation: pop 0.15s;
+}
